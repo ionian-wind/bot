@@ -1,0 +1,27 @@
+{
+  "name": "bot-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionian-wind/bot-example.git"
+  },
+  "author": "Dmitriy Shadrunov <ionian.wind@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionian-wind/bot-example/issues"
+  },
+  "homepage": "https://github.com/ionian-wind/bot-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "messaging-api-messenger": "^0.8.2",
+    "messaging-api-telegram": "^0.8.2",
+    "messaging-api-viber": "^0.8.2",
+    "localtunnel": "^2.0.0"
+  }
+}
